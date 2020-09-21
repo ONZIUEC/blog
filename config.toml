@@ -1,0 +1,26 @@
+baseURL = "https://ONZIUEC.github.io/"
+languageCode = "ja"
+title = "とろいかの秘密基地"
+theme = "Mainroad"
+[Params]
+  highlightColor = "#2189c8"
+
+[[Menus.main]]
+  Name = "ホーム"
+  URL = "/"
+  weight = 1
+[[Menus.main]]
+  Name = "このサイトについて"
+  URL = "/about/"
+  weight = 2
+[[Menus.main]]
+  Name = "プロフィール"
+  URL = "/prof/"
+  weight = 3
+[[Menus.main]]
+  Name = "ブログ"
+  URL = "/post/"
+  weight = 3
+[[Menus.footer]]
+  Name = "プライバシーポリシー"
+  URL = "/privacy/"
